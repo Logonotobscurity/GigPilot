@@ -2,7 +2,8 @@
 
 <p align="center">
   <strong>FDE engagement kit</strong><br/>
-  Discovery → Architecture → Deploy → Metrics → Handoff
+  Discovery → Architecture → Deploy → Metrics → Handoff<br/>
+  The artifact is the truth
 </p>
 
 [![Status](https://img.shields.io/badge/Status-FDE%20engagement%20kit-brightgreen?style=flat)]()
@@ -12,13 +13,13 @@
 
 ## What problem does this solve?
 
-Technical systems ship without transferable engagement artifacts. Handoffs contain TODO/TBD. GigPilot enforces a consistent spine and validates that examples are complete.
+Technical systems ship without transferable engagement artifacts. Handoffs contain TODO/TBD. GigPilot enforces a consistent spine so a stranger can re-run smoke from the handoff alone.
 
 ## What is implemented
 
-- Generic templates (discovery, architecture, deploy, metrics, handoff, timeline)
+- Templates: discovery, architecture, deploy, metrics_table, timeline, handoff
 - Filled examples for ArchAudit CCM and AgentBridge Africa
-- `check_pack.py` validator (required files + no TODO/TBD)
+- `check_pack.py` (required files + no TODO/TBD)
 - Lifecycle language matched to FDE playbooks
 
 ## Quick start
@@ -27,17 +28,13 @@ Technical systems ship without transferable engagement artifacts. Handoffs conta
 python scripts/check_pack.py
 ```
 
-## Demo
-
-> Run the validator above to confirm all example packs pass.
-
 ## Portfolio value
 
-Demonstrates delivery discipline and stakeholder-ready packaging for AI systems in African contexts. Complements the technical repos.
+Delivery discipline and stakeholder-ready packaging for AI systems in African contexts.
 
 ## Limitations
 
-Artifact kit only — runtime lives in ArchAudit-CCM and AgentBridge-Africa.
+Artifact kit only — runtime lives in the companion repositories.
 
 ## Companion repositories
 
@@ -46,6 +43,6 @@ Artifact kit only — runtime lives in ArchAudit-CCM and AgentBridge-Africa.
 
 ## Visual assets checklist
 
-- [ ] Social preview image (1280×640)
+- [ ] Social preview (1280×640)
 - [ ] Screenshots of example playbooks
-- [ ] GIF of `check_pack.py` running clean
+- [ ] GIF of validator running clean
