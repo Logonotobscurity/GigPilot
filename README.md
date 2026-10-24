@@ -1,9 +1,7 @@
 # GigPilot
 
 <p align="center">
-  <strong>FDE engagement kit</strong><br/>
-  Discovery → Architecture → Deploy → Metrics → Handoff<br/>
-  The artifact is the truth
+  <img src="docs/assets/social-preview.svg" alt="GigPilot: field engineering engagement lifecycle from discovery to reliable handoff" width="100%" />
 </p>
 
 [![Status](https://img.shields.io/badge/Status-FDE%20engagement%20kit-brightgreen?style=flat)]()
